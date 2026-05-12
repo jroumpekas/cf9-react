@@ -1,10 +1,19 @@
-function App() {
+import FunctionalComponent from "./components/FunctionalComponent";
+import ClassComponent from "./components/ClassComponent";
+import ArrowFunctionalComponent from "./components/ArrowFunctionalComponent.tsx";
 
-  return (
-      <>
-      </>
-  )
+function App() {
+    // const title = "React Components Example";
+
+    return (
+        <>
+
+
+            <FunctionalComponent />
+            <ClassComponent />
+            <ArrowFunctionalComponent />
+        </>
+    );
 }
 
-export default App
- 
+export default App;
